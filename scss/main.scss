@@ -6,13 +6,10 @@
 @import "global";
 
 .header{
-	@media only screen and (min-width: 760px){
-		position: fixed;
-	}
+	position: fixed;
 	background: rgba(18, 18, 88, 0.74);
 	color: #fff;
 	padding: 0 4rem;
-	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: auto;
@@ -37,7 +34,6 @@
 		-ms-flex-pack: justify;
 		justify-content: space-between;
 		height: 55px;
-	
 		.nav-item{
 			display: inline-block;
 			.nav-link{
@@ -114,6 +110,17 @@
 			    line-height: 3.5rem;
 			    letter-spacing: -.003em;
 			}
+		}
+		.lineSep{
+			background: #b7b7b7;
+		    height: 1px;
+		    margin-bottom: -24px;
+		}
+		.titles{
+			display: table;
+		    margin: 0 auto;
+		    background: #fff;
+		    padding: 0 15px;
 		}
 		#works{
 			background: #fff;
@@ -207,12 +214,41 @@
 			text-align: center;
 			background: #fff;
 			.formacao{
-				display: inline-block;
-				padding: 26px 61px;
-    			max-width: 250px;
-				img{
-					max-width: 100%;
+				    margin: 20px 0;
+				    width: 45%;
+				    display: inline-block;
+				    @media only screen and (max-width: 760px){
+					margin-right: 1rem;
+	    			margin-left: 0;
+	    			width: 50%;
 				}
+    			.formacao-picture{
+    				display: block;
+				    margin-bottom: 2rem;
+				    min-height: 280px;
+				    position: relative;
+				    @media only screen and (min-width: 760px){
+						
+						img{
+							max-width: 100%;
+						    margin: 0;
+						    top: 0;
+						    left: 0;
+						    margin-right: 0;
+						    transform: translate(0);
+						}
+					}
+				    img{
+						max-width: 100%;
+					    margin: 0;
+					    position: absolute;
+					    top: 50%;
+					    left: 50%;
+					    margin-right: -50%;
+					    transform: translate(-50%, -50%);
+					}
+    			}
+				
 				.formacao-ads{
 					display: none;
 				}
@@ -292,21 +328,16 @@
       background: #f0f0f0;
       padding: 1em;
       margin: 0;
-
       height: 100%;
-      width: 90%;
       max-width: 320px;
-
       position: fixed;
       z-index: 1;
       top: 0;
       left: -90%;
-
       transition: left 0.3s ease-out;
   }
   .nav-item{
   	display: block !important;
-  	
   }
   .nav-link{
   	color: #000 !important;
@@ -321,17 +352,14 @@
   .menu-ativo:after {
         content: "";
         display: block;
-
         position: fixed;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
-
         background: rgba(0,0,0,0.4);
     }
 }
-
 @media not all and (max-width: 760px) {
     .menu-abrir,
     .menu-fechar {

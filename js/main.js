@@ -39,9 +39,7 @@ document.querySelector('.menu-fechar').onclick = function() {
     document.documentElement.classList.remove('menu-ativo');
     $('.menu-abrir').css('display', 'block')
 };
-document.querySelector('.nav-link').onclick = function() {
-    document.documentElement.classList.remove('menu-ativo');
-};
+
 
 document.documentElement.onclick = function(event) {
     if (event.target === document.documentElement) {
@@ -56,6 +54,9 @@ $('#link-sobre').click(function(){
         scrollTop: sobre+'px'
 
     }, 1000);
+    document.documentElement.classList.remove('menu-ativo');
+    $('.menu-abrir').css('display', 'block');
+
 });
 $('#link-trabalho').click(function(){
 	var trabalho = $('#trabalhos').offset().top-100;
@@ -65,6 +66,8 @@ $('#link-trabalho').click(function(){
         scrollTop: trabalho+'px'
 
     }, 1000);
+    document.documentElement.classList.remove('menu-ativo');
+    $('.menu-abrir').css('display', 'block');
 });
 $('#link-conhecimento').click(function(){
 	var conhecimento = $('#conhecimento').offset().top-100;
@@ -73,6 +76,8 @@ $('#link-conhecimento').click(function(){
         scrollTop: conhecimento+'px'
 
     }, 1000);
+    document.documentElement.classList.remove('menu-ativo');
+    $('.menu-abrir').css('display', 'block');
 });
 $('#link-formacao').click(function(){
 	console.log('yu');
@@ -82,6 +87,8 @@ $('#link-formacao').click(function(){
         scrollTop: formacao+'px'
 
     }, 1000);
+    document.documentElement.classList.remove('menu-ativo');
+    $('.menu-abrir').css('display', 'block');
 });
 
 //console.log('yu');
