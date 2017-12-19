@@ -504,7 +504,7 @@ body {
 /* line 8, ../scss/main.scss */
 .header {
   position: fixed;
-  background: rgba(18, 18, 88, 0.74);
+  background: rgba(18, 18, 88, 0);
   color: #fff;
   padding: 0 4rem;
   top: 0;
@@ -901,7 +901,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
   }
 }
 @media not all and (max-width: 760px) {
