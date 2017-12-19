@@ -148,7 +148,6 @@
 				    min-height: 280px;
 				    position: relative;
 				    @media only screen and (min-width: 760px){
-						
 						img{
 							max-width: 100%;
 						    margin: 0;
@@ -227,8 +226,7 @@
 				    margin-bottom: 2rem;
 				    min-height: 280px;
 				    position: relative;
-				    @media only screen and (min-width: 760px){
-						
+				    @media only screen and (min-width: 760px){	
 						img{
 							max-width: 100%;
 						    margin: 0;
@@ -247,8 +245,7 @@
 					    margin-right: -50%;
 					    transform: translate(-50%, -50%);
 					}
-    			}
-				
+    			}	
 				.formacao-ads{
 					display: none;
 				}
@@ -258,7 +255,6 @@
 				.formacao-hardware{
 					display: none;
 				}
-
 			}
 		}
 		#conhecimentos{
@@ -318,11 +314,6 @@
     left: 0;
     text-indent: 0;
 }
-
-
-
-
-
 @media (max-width: 760px) {
   .navbar {
       background: #f0f0f0;

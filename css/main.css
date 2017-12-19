@@ -504,7 +504,7 @@ body {
 /* line 8, ../scss/main.scss */
 .header {
   position: fixed;
-  background: rgba(18, 18, 88, 0);
+  background: rgba(18, 18, 88, 0.74);
   color: #fff;
   padding: 0 4rem;
   top: 0;
@@ -676,7 +676,7 @@ body {
   position: relative;
 }
 @media only screen and (min-width: 760px) {
-  /* line 152, ../scss/main.scss */
+  /* line 151, ../scss/main.scss */
   .main .thumbnail #works .work .work-picture img {
     max-width: 100%;
     margin: 0;
@@ -686,7 +686,7 @@ body {
     transform: translate(0);
   }
 }
-/* line 161, ../scss/main.scss */
+/* line 160, ../scss/main.scss */
 .main .thumbnail #works .work .work-picture img {
   max-width: 100%;
   margin: 0;
@@ -696,7 +696,7 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-/* line 171, ../scss/main.scss */
+/* line 170, ../scss/main.scss */
 .main .thumbnail #works .work .work-link {
   font-size: 1.2rem;
   line-height: 2.4rem;
@@ -712,7 +712,7 @@ body {
   transition: color .15s .15s;
   z-index: 0;
 }
-/* line 185, ../scss/main.scss */
+/* line 184, ../scss/main.scss */
 .main .thumbnail #works .work .work-link::after {
   background: #201a7e;
   content: "";
@@ -728,35 +728,35 @@ body {
   transition: transform .3s,-webkit-transform .3s;
   z-index: -1;
 }
-/* line 200, ../scss/main.scss */
+/* line 199, ../scss/main.scss */
 .main .thumbnail #works .work .work-link:hover, .main .thumbnail #works .work .work-link focus {
   color: #00b0ff;
 }
-/* line 202, ../scss/main.scss */
+/* line 201, ../scss/main.scss */
 .main .thumbnail #works .work .work-link:hover:after, .main .thumbnail #works .work .work-link focus:after {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-/* line 213, ../scss/main.scss */
+/* line 212, ../scss/main.scss */
 .main .thumbnail #formacoes {
   text-align: center;
   background: #fff;
 }
-/* line 216, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao {
   margin: 20px 0;
   width: 45%;
   display: inline-block;
 }
 @media only screen and (max-width: 760px) {
-  /* line 216, ../scss/main.scss */
+  /* line 215, ../scss/main.scss */
   .main .thumbnail #formacoes .formacao {
     margin-right: 1rem;
     margin-left: 0;
     width: 50%;
   }
 }
-/* line 225, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao .formacao-picture {
   display: block;
   margin-bottom: 2rem;
@@ -764,7 +764,7 @@ body {
   position: relative;
 }
 @media only screen and (min-width: 760px) {
-  /* line 232, ../scss/main.scss */
+  /* line 230, ../scss/main.scss */
   .main .thumbnail #formacoes .formacao .formacao-picture img {
     max-width: 100%;
     margin: 0;
@@ -774,7 +774,7 @@ body {
     transform: translate(0);
   }
 }
-/* line 241, ../scss/main.scss */
+/* line 239, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao .formacao-picture img {
   max-width: 100%;
   margin: 0;
@@ -784,39 +784,39 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-/* line 252, ../scss/main.scss */
+/* line 249, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao .formacao-ads {
   display: none;
 }
-/* line 255, ../scss/main.scss */
+/* line 252, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao .formacao-redes {
   display: none;
 }
-/* line 258, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 .main .thumbnail #formacoes .formacao .formacao-hardware {
   display: none;
 }
-/* line 264, ../scss/main.scss */
+/* line 260, ../scss/main.scss */
 .main .thumbnail #conhecimentos {
   background: #fff;
   margin: 10px 0;
   text-align: center;
 }
-/* line 268, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 .main .thumbnail #conhecimentos .conhecimento {
   text-align: center;
 }
-/* line 270, ../scss/main.scss */
+/* line 266, ../scss/main.scss */
 .main .thumbnail #conhecimentos .conhecimento .conhecimento-item {
   display: inline-block;
   padding: 27px;
 }
-/* line 273, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 .main .thumbnail #conhecimentos .conhecimento .conhecimento-item img {
   max-width: 100px;
 }
 
-/* line 285, ../scss/main.scss */
+/* line 281, ../scss/main.scss */
 .menu-abrir,
 .menu-fechar {
   background: none;
@@ -827,7 +827,7 @@ body {
   text-indent: -999em;
 }
 
-/* line 295, ../scss/main.scss */
+/* line 291, ../scss/main.scss */
 .menu-abrir {
   height: 0;
   width: .75em;
@@ -839,7 +839,7 @@ body {
   float: right;
 }
 
-/* line 307, ../scss/main.scss */
+/* line 303, ../scss/main.scss */
 .menu-fechar {
   position: relative;
   height: 1em;
@@ -847,7 +847,7 @@ body {
   color: #000;
 }
 
-/* line 314, ../scss/main.scss */
+/* line 310, ../scss/main.scss */
 .menu-fechar:before {
   content: '\00D7';
   position: absolute;
@@ -857,7 +857,7 @@ body {
 }
 
 @media (max-width: 760px) {
-  /* line 327, ../scss/main.scss */
+  /* line 318, ../scss/main.scss */
   .navbar {
     background: #f0f0f0;
     padding: 1em;
@@ -871,28 +871,28 @@ body {
     transition: left 0.3s ease-out;
   }
 
-  /* line 339, ../scss/main.scss */
+  /* line 330, ../scss/main.scss */
   .nav-item {
     display: block !important;
   }
 
-  /* line 342, ../scss/main.scss */
+  /* line 333, ../scss/main.scss */
   .nav-link {
     color: #000 !important;
   }
 
-  /* line 345, ../scss/main.scss */
+  /* line 336, ../scss/main.scss */
   .menu-ativo .navbar {
     left: 0;
   }
 
-  /* line 348, ../scss/main.scss */
+  /* line 339, ../scss/main.scss */
   .menu-principal li {
     padding: 1em 0;
     width: 100%;
   }
 
-  /* line 352, ../scss/main.scss */
+  /* line 343, ../scss/main.scss */
   .menu-ativo:after {
     content: "";
     display: block;
@@ -901,11 +901,11 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
   }
 }
 @media not all and (max-width: 760px) {
-  /* line 365, ../scss/main.scss */
+  /* line 356, ../scss/main.scss */
   .menu-abrir,
   .menu-fechar {
     display: none;
