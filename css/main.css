@@ -504,7 +504,7 @@ body {
 /* line 8, ../scss/main.scss */
 .header {
   position: fixed;
-  background: rgba(18, 18, 88, 0.75);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
   padding: 0 4rem;
   top: 0;
@@ -520,7 +520,7 @@ body {
   color: #FFF;
   font-style: normal;
   letter-spacing: 1.7px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0);
   -moz-opacity: 1;
   -webkit-opacity: 1;
   -o-opacity: 1;
@@ -730,8 +730,8 @@ body {
   line-height: 2.4rem;
   font-weight: 400;
   letter-spacing: .1rem;
-  border: 1px solid #201a7e;
-  color: #201a7e;
+  border: 1px solid black;
+  color: black;
   display: inline-block;
   overflow: hidden;
   padding: 1rem;
@@ -742,7 +742,7 @@ body {
 }
 /* line 213, ../scss/main.scss */
 .main .thumbnail #works .work .work-link::after {
-  background: #201a7e;
+  background: black;
   content: "";
   position: absolute;
   top: 0;
@@ -758,7 +758,7 @@ body {
 }
 /* line 228, ../scss/main.scss */
 .main .thumbnail #works .work .work-link:hover, .main .thumbnail #works .work .work-link focus {
-  color: #00b0ff;
+  color: #fff;
 }
 /* line 230, ../scss/main.scss */
 .main .thumbnail #works .work .work-link:hover:after, .main .thumbnail #works .work .work-link focus:after {
@@ -929,7 +929,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
   }
 }
 @media not all and (max-width: 760px) {

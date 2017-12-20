@@ -3,14 +3,14 @@ $('.pais-pt').click(function(event){
 	event.preventDefault();
 	$('#sobre-en').css('display', 'none');
 	$('#sobre-pt').css('display', 'block');
-	$('#link-trabalho').text('TRABALHOS');
+	$('#link-trabalho').text('PROJETOS');
 	$('.work-link').text('VEJA O PROJETO');
-	$('#link-formacao').text('FORMACÃO');
+	$('#link-formacao').text('FORMAÇÃO');
 	$('#link-conhecimento').text('CONHECIMENTOS');
 	$('#link-sobre').text('SOBRE');
 	$('.work-link').text('VIEW THE PROJECT');
-	$('#trabalhos').text('Trabalhos');
-	$('#formacao').text('Formação');
+	$('#trabalhos').text('Projetos');
+	$('#formacao').text('Formação Academica');
 	$('#conhecimento').text('Conhecimentos');
 
 
