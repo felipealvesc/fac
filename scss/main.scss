@@ -7,7 +7,8 @@
 
 .header{
 	position: fixed;
-	background: rgba($black, $alpha);
+	background: #000;
+	opacity: 0.8;
 	color: #fff;
 	padding: 0 4rem;
 	top: 0;
@@ -136,8 +137,10 @@
 			}
 			p{
 				font-size: 1.2rem;
-			    line-height: 3.5rem;
+			    line-height: 2.6rem;
 			    letter-spacing: -.003em;
+			    text-align: justify;
+
 			}
 		}
 		.lineSep{
@@ -274,6 +277,7 @@
 					    margin-right: -50%;
 					    transform: translate(-50%, -50%);
 					}
+
     			}	
 				.formacao-ads{
 					display: none;
