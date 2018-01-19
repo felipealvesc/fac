@@ -90,5 +90,3 @@ $('#link-formacao').click(function(){
     document.documentElement.classList.remove('menu-ativo');
     $('.menu-abrir').css('display', 'block');
 });
-
-//console.log('yu');
