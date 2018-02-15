@@ -90,3 +90,43 @@ $('#link-formacao').click(function(){
     document.documentElement.classList.remove('menu-ativo');
     $('.menu-abrir').css('display', 'block');
 });
+
+
+function getData(){
+    let data = new Date();
+    let dia = data.getDate();
+      if (dia.toString().length == 1){
+      dia = "0"+dia;
+      }
+    let mes = data.getMonth() + 1; 
+      if (mes.toString().length == 1){
+        mes = "0"+mes;
+      }
+    let ano = data.getFullYear();
+    
+    let dataFull = dia + '/' + mes + '/' + ano;
+
+    let nasc = '1991';
+   
+    return {
+      dia: dia,
+      mes: mes,
+      ano: ano,
+      dataFull: dataFull,
+      nasc: nasc
+    }
+}
+
+let idade = (getData().ano - getData().nasc);
+if(getData().mes < '04'){
+	idade = idade - 1;
+}
+if (getData().mes == '04'){
+	if(getData().dia <= '09'){
+		idade = idade - 1;
+	}
+}
+$('.idade').text(idade);
+
+
+
